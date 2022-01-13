@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define altura 1.70
+
+int main () {
+
+  float peso_ideal;
+
+  //Calcular o peso_ideal
+  peso_ideal = 72.2 * altura - 58;
+  printf("Peso Ideal:%.2fKg\n", peso_ideal );
+
+  return 0;
